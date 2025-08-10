@@ -1,0 +1,16 @@
+src/
+  server.js
+  config/
+    env.js
+    db.js
+  models/
+    User.js
+    Post.js
+  graphql/
+    typeDefs.js
+    resolvers.js
+  utils/
+    auth.js
+    errors.js
+    validate.js
+.env
