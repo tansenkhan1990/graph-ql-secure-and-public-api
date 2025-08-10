@@ -2,6 +2,7 @@
   "name": "graph-ql-secure-and-public-api",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +12,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@apollo/server": "^5.0.0",
+    "@apollo/server": "^4.7.0",
     "bcrypt": "^6.0.0",
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
@@ -23,5 +24,8 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.17.1",
     "zod": "^4.0.17"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }

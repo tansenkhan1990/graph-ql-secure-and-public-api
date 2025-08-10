@@ -1,13 +1,13 @@
 import { GraphQLError } from 'graphql';
 import { User } from '../models/User.js';
 import { Post } from '../models/Post.js';
-import { signToken, requireAuth } from '../../../utils/auth.js';
+import { signToken, requireAuth } from '../utils/auth.js';
 import {
   registerSchema,
   loginSchema,
   createPostSchema,
   updatePostSchema
-} from '../../../utils/validate.js';
+} from '../utils/validate.js';
 
 // Helper: throw a GraphQL-friendly error
 function badRequest(message) {
